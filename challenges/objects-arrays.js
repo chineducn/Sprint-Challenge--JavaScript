@@ -76,7 +76,7 @@ const graduates = [
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
-graduates.forEach(graduate => universities.push(graduate.university))
+graduates.forEach(graduate => universities.unshift(graduate.university))
 // console.log(universities);
 let universitiesSorted = universities.sort();
 // console.log(universitiesSorted)
