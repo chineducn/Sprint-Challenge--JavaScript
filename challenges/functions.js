@@ -41,6 +41,7 @@ const greeting = function(first_name, last_name) {
 
 // Explanation: 
 
+//When searching for the value of a variable functions can only search from its inside going out but can't search into another function block which is going outside to inside.
 
 // const external = "I'm outside the function";
 
